@@ -1,0 +1,8 @@
+
+namespace LaurenceBuist
+{
+    public interface IAirplaneUI
+    {
+        void HandleAirplaneUI();
+    }
+}

@@ -1,0 +1,37 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using TMPro;
+using UnityEngine;
+using UnityEngine.UI;
+
+namespace LaurenceBuist
+{
+    public class LB_AirplaneUI_Controller : MonoBehaviour
+    {
+        #region Variables
+
+        private List<IAirplaneUI> instruments;
+        #endregion
+        
+        // Start is called before the first frame update
+        void Start()
+        {
+            instruments = transform.GetComponentsInChildren<IAirplaneUI>().ToList();
+        }
+
+        // Update is called once per frame
+        void Update()
+        {
+            if (instruments.Count > 0)
+            {
+                foreach (IAirplaneUI instrument in instruments)
+                {
+                    instrument.HandleAirplaneUI();
+                }
+            }
+        }
+        
+        
+    }
+}

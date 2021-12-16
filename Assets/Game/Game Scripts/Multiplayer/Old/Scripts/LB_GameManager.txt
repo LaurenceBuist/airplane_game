@@ -1,0 +1,48 @@
+using System;
+using System.Collections;
+using System.Collections.Generic;
+using Photon.Pun;
+using Photon.Realtime;
+using Photon.Pun.UtilityScripts;
+using UnityEngine;
+using Random = System.Random;
+
+namespace LaurenceBuist
+{
+    public class LB_GameManager : Bolt.GlobalEventListener
+    {
+        #region Variables
+        [Header("Offline")]
+        public bool isOffline;
+        public GameObject Airplane;
+
+        #endregion
+
+        #region Builtin Methods
+        
+        // Start is called before the first frame update
+        void Start()
+        {
+            StartGame();
+        }
+
+        #endregion
+        
+        #region Game
+
+        private void StartGame()
+        {
+            if (isOffline)
+            {
+                Quaternion rotation = Quaternion.Euler(0,0,0);
+                GameObject NewAirplane = Instantiate(Airplane, new Vector3(8, 3, 9), rotation);
+                NewAirplane.GetComponent<LB_MobileAirplane_Input>().isOffline = true;
+                NewAirplane.GetComponent<LB_Airplane_Controller>().isOffline = true;
+            }
+        }
+
+        #endregion
+        
+        
+    }
+}

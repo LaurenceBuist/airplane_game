@@ -1,0 +1,58 @@
+using UnityEngine;
+using UnityEngine.UIElements;
+
+namespace LaurenceBuist
+{
+    public class LB_MobileAirplane_Input : LB_BaseAirplane_Input
+    {
+        #region Variables
+        
+        [Header("Mobile Input Properties")]
+        public float gyroSensitivity = 2f;
+
+        #endregion
+
+        
+        
+        #region Custom Methods
+
+        protected override void PollKeys()
+        {
+            if (L_Thumbstick.enabled)
+            {
+                pitch = L_Thumbstick.Vertical;
+                roll = L_Thumbstick.Horizontal;
+                //Debug.Log(roll);
+                yaw = rudderJoystick.Horizontal;//rudderSlider.value - 1;
+                throttle = throttleSlider.value;
+               // throttle = -R_Thumbstick.Vertical;
+            }
+            else
+            {
+                pitch = gyroSensitivity * Mathf.Round((Input.acceleration.y - gyroRotIni.y)*100)/100; //gyro.rotationRateUnbiased.x;
+                roll = gyroSensitivity * Mathf.Round((Input.acceleration.x - gyroRotIni.x)*100)/100; //gyro.rotationRateUnbiased.y;
+                //Debug.Log(roll);
+                yaw = rudderJoystick.Horizontal; //rudderSlider.value - 1;
+                throttle = throttleSlider.value;
+                //throttle = -R_Thumbstick.Vertical;
+            }
+        }
+
+        public void SetBrake(float aValue)
+        {
+            brake = aValue;
+        }
+
+        public void SetFlaps()
+        {
+            flaps = (int)flapsSlider.value;
+        }
+
+        public void SetCamera(bool aFlag)
+        {
+            cameraSwitch = true;
+        }
+
+        #endregion
+    }
+}

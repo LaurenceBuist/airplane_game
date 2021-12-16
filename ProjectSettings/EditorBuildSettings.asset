@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Game/Menu/Scenes/Menu.unity
+    guid: 81c64f7728c756b46a6bc7ec2a5c8c21
+  - enabled: 1
+    path: Assets/Game/Menu/Scenes/MenuMultiplayer.unity
+    guid: ae97d0cfbbffe054996cce79d536e687
+  - enabled: 1
+    path: Assets/Game/Worlds/Test scene/Airplane/Airplane.unity
+    guid: 6840dc225ee961e4f87acd7896518829
+  - enabled: 1
+    path: Assets/Game/Worlds/World 1/Scene/World1.unity
+    guid: bb83a73088a2aeb4681371e2ac5c21c8
+  - enabled: 1
+    path: Assets/Game/Worlds/World 2/Scene/World2.unity
+    guid: 0ac0c05af8cf6544eb916aea70d3a063
+  m_configObjects: {}

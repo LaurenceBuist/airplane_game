@@ -1,0 +1,42 @@
+using System.Security.Cryptography.X509Certificates;
+using UnityEngine;
+
+namespace LaurenceBuist
+{
+    public class LB_Airplane_Tachometer : MonoBehaviour, IAirplaneUI
+    {
+        #region Variables
+
+        [Header("Tachometer Properties")]
+        public LB_Airplane_Engines engines;
+        public RectTransform pointer;
+        public float maxRPM = 3500f;
+        public float maxRotation = 310f;
+        public float pointerSpeed = 2f;
+
+        private float finalRotation = 0f;
+        #endregion
+        
+        // Start is called before the first frame update
+        void Start()
+        {
+
+        }
+
+        #region Interface Methods
+
+        public void HandleAirplaneUI()
+        {
+            if (engines && pointer)
+            {
+                float normalizedRPM = Mathf.InverseLerp(0f, maxRPM, engines.CurrentRPM);
+
+                float wantedRotation = maxRotation * -normalizedRPM;
+                finalRotation = Mathf.Lerp(finalRotation, wantedRotation, Time.deltaTime * pointerSpeed);
+                pointer.rotation = Quaternion.Euler(0f, 0f, finalRotation);
+            }
+        }
+
+        #endregion
+    }
+}

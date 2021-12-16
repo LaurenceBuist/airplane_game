@@ -1,0 +1,38 @@
+using UnityEngine;
+using Slider = UnityEngine.UI.Slider;
+
+public class LB_Slider_Reset : MonoBehaviour
+{
+    private float startPos;
+    public Slider slider;
+
+    private bool resetting = false;
+    
+    
+    // Start is called before the first frame update
+    void Start()
+    {
+        startPos = slider.value;
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        if(Input.GetMouseButtonUp(0))
+        {
+            resetting = true;
+        }
+        if(resetting) ResetKnob();
+    }
+
+    void ResetKnob()
+    {
+        slider.value = Mathf.Lerp(slider.value, startPos, Time.deltaTime * 5f);
+        Debug.Log("Resetting");
+        if (-0.1 <= (slider.value - startPos) && (slider.value - startPos) <= 0.1)
+        {
+            slider.value = 1;
+            resetting = false;
+        }
+    }
+}

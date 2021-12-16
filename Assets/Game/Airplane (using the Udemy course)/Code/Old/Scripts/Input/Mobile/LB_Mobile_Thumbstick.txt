@@ -1,0 +1,107 @@
+using UnityEngine;
+
+namespace LaurenceBuist
+{
+    public class LB_Mobile_Thumbstick : MonoBehaviour
+    {
+        #region Variables
+        [Header("Thumbstick Properties")]
+        public bool useMouse = true;
+        public RectTransform knob;
+
+        private RectTransform bounds;
+        private Vector2 finalDelta;
+        public bool isTouching;
+        #endregion
+
+        #region Properties
+
+        public float VerticalAxis => finalDelta.y;
+        public float HorizontalAxis => finalDelta.x;
+
+        #endregion
+        
+        // Start is called before the first frame update
+        void Start()
+        {
+            bounds = GetComponent<RectTransform>();
+            
+        }
+
+        // Update is called once per frame
+        void Update()
+        {
+            if (bounds && knob) HandleThumbstick();
+        }
+
+        #region Custom Methods
+
+        void HandleThumbstick()
+        {
+            if(!isTouching) isTouching = RectTransformUtility.RectangleContainsScreenPoint(bounds, Input.mousePosition);
+
+            if (useMouse)
+            {
+                HandleMouse();
+            }
+            else
+            {
+                HandleTouches();
+            }
+        }
+
+        void HandleMouse()
+        {
+            if (Input.GetMouseButton(0))
+            {
+                if (isTouching)
+                {
+                    HandleDragging();
+                }
+            }
+            else
+            {
+                isTouching = false;
+                ResetKnob();
+            }
+        }
+
+        void HandleTouches()
+        {
+            /*if (Input.touchCount > 0)
+            {
+                if (Input.GetTouch(0).position.x > (Screen.width / 2) && gameObject.name == "R_Thumbstick")
+                {
+                    HandleDragging(Input.GetTouch(0));
+                }
+                else if (Input.GetTo)
+                {
+                    if(gameObject.name == "L_Thumbstick") HandleDragging(Input.GetTouch(0));
+                }
+                Touch touch = Input.GetTouch(0);
+            }*/
+        }
+
+        protected virtual void HandleDragging()
+        {
+            //Get the target position for the knob
+            Vector2 wantedPosition = Vector2.zero;
+            RectTransformUtility.ScreenPointToLocalPointInRectangle(bounds, Input.mousePosition, null,
+                    out wantedPosition);
+            knob.anchoredPosition = Vector2.Lerp(knob.anchoredPosition, wantedPosition, Time.deltaTime * 20f);
+            
+            //Find the normalized Delta for the Knob
+            float xDelta = knob.anchoredPosition.x / (bounds.rect.width * 0.5f);
+            float yDelta = knob.anchoredPosition.y / (bounds.rect.height * 0.5f);
+            finalDelta = new Vector2(xDelta, yDelta);
+            finalDelta = Vector2.ClampMagnitude(finalDelta, 1f);
+        }
+
+        void ResetKnob()
+        {
+            knob.anchoredPosition = Vector2.Lerp(knob.anchoredPosition, Vector2.zero, Time.deltaTime * 15f);
+            finalDelta = Vector2.zero;
+        }
+        #endregion
+    }
+}

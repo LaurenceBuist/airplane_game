@@ -1,0 +1,34 @@
+using UnityEngine;
+
+namespace LaurenceBuist
+{
+    public class LB_Airplane_Airspeed : MonoBehaviour, IAirplaneUI
+    {
+        #region Variables
+
+        [Header("Airspeed Indicator Properties")]
+        public LB_Airplane_Characteristics characteristics;
+        public RectTransform pointer;
+        public float maxIndicatedKnots = 220f;
+        #endregion
+
+        #region Constants
+        public const float kphToKnts = 0.539957f;
+        #endregion
+        
+        #region Interface Methods
+        public void HandleAirplaneUI()
+        {
+            if (characteristics && pointer)
+            {
+                float currentKnots = characteristics.KPH * kphToKnts;
+                float normalizedKnots = Mathf.InverseLerp(0f, maxIndicatedKnots, currentKnots);
+                //Debug.Log(normalizedKnots);
+                float wantedRotation = 360f * normalizedKnots;
+                //float wantedRotation = (maxIndicatedKnots / 360f) * currentKnots;
+                pointer.rotation = Quaternion.Euler(0f, 0f, -wantedRotation);
+            }
+        }
+        #endregion
+    }
+}

@@ -1,0 +1,46 @@
+﻿using System;
+using UnityEngine.SceneManagement;
+
+namespace LaurenceBuist
+{
+//Tell Bolt to only create an instance of this class on the server
+    [BoltGlobalBehaviour(BoltNetworkModes.Server)]
+    public class LB_Multiplayer_ServerCallbacks : Bolt.GlobalEventListener
+    {
+        private Scene sceneName1;
+        private Scene sceneName2;
+
+        void Awake()
+        {
+            sceneName1 = SceneManager.GetSceneByName("1_World");
+            sceneName2 = SceneManager.GetSceneByName("Airplane");
+            
+            LB_PlayerObjectRegistry.CreateServerPlayer();
+        }
+
+        public override void Connected(BoltConnection connection)
+        {
+            LB_PlayerObjectRegistry.CreateClientPlayer(connection);
+        }
+
+        public override void SceneLoadLocalDone(string map)
+        {
+            //if (map == "1_World" || map == "Airplane")
+            LB_PlayerObjectRegistry.ServerPlayer.Spawn();
+        }
+
+        public override void SceneLoadRemoteDone(BoltConnection connection)
+        {
+            //if(IsPlayingScene())
+            LB_PlayerObjectRegistry.GetPlayer(connection).Spawn();
+        }
+
+        bool IsPlayingScene()
+        {
+            if (SceneManager.GetActiveScene() == sceneName1 || SceneManager.GetActiveScene() == sceneName2)
+                return true;
+            
+            return false;
+        }
+    }
+}

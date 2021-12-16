@@ -1,0 +1,31 @@
+using UnityEngine;
+
+namespace LaurenceBuist
+{
+    public class LB_Airplane_Shooting : MonoBehaviour
+    {
+        public GameObject bulletObj;
+        public float bulletSpeed;
+        private float i = 4f;
+        
+        public LB_BaseAirplane_Input input;
+        
+        // Start is called before the first frame update
+        void Start()
+        {
+
+        }
+
+        // Update is called once per frame
+        void Update()
+        {
+            if (bulletObj && i%4 == 0f)
+            {
+                i++;
+                GameObject instBullet = Instantiate(bulletObj, transform.position, Quaternion.identity) as GameObject;
+                Rigidbody instBulletRigidbody = instBullet.GetComponent<Rigidbody>();
+                instBulletRigidbody.AddForce(Vector3.forward*bulletSpeed);
+            }
+        }
+    }
+}

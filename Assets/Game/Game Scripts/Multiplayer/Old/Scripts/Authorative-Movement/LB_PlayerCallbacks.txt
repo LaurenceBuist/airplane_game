@@ -1,0 +1,39 @@
+﻿using UnityEngine.SceneManagement;
+
+namespace LaurenceBuist
+{
+    [BoltGlobalBehaviour]
+    public class LB_PlayerCallbacks : Bolt.GlobalEventListener
+    {
+        private Scene sceneName1;
+        private Scene sceneName2;
+
+        void Awake()
+        {
+            sceneName1 = SceneManager.GetSceneByName("1_World");
+            sceneName2 = SceneManager.GetSceneByName("Airplane");
+        }
+        
+
+        public override void SceneLoadLocalDone(string map)
+        {
+            // this just instantiates our player camera,
+            // the Instantiate() method is supplied by the BoltSingletonPrefab<T> class
+            LB_Camera_AuthorativeMovement.Instantiate();
+        }
+
+        public override void ControlOfEntityGained(BoltEntity entity)
+        {
+            // this tells the player camera to look at the entity we are controlling
+            LB_Camera_AuthorativeMovement.instance.SetTarget(entity);
+        }
+        
+        bool IsPlayingScene()
+        {
+            if (SceneManager.GetActiveScene() == sceneName1 || SceneManager.GetActiveScene() == sceneName2)
+                return true;
+            
+            return false;
+        }
+    }
+}

@@ -1,0 +1,39 @@
+using UnityEditor;
+using UnityEngine;
+
+namespace LaurenceBuist
+{
+    [CustomEditor(typeof(LB_XboxAirplane_Input))]
+    public class LB_XboxAirplaneInput_Editor : Editor
+    {
+        
+        #region Variables
+        private LB_XboxAirplane_Input targetInput;
+        #endregion
+
+        private void OnEnable()
+        {
+            targetInput = (LB_XboxAirplane_Input)target;
+            
+        }
+
+        public override void OnInspectorGUI()
+        {
+            base.OnInspectorGUI();
+
+            string debugInfo = "";
+            debugInfo += "Pitch = " + targetInput.Pitch + "\n";
+            debugInfo += "Roll = " + targetInput.Roll + "\n";
+            debugInfo += "Yaw = " + targetInput.Yaw + "\n";
+            debugInfo += "Throttle = " + targetInput.Throttle + "\n";
+            debugInfo += "Brake = " + targetInput.Brake + "\n";
+            debugInfo += "Flaps = " + targetInput.Flaps + "\n";
+
+            GUILayout.Space(20);
+            EditorGUILayout.TextArea(debugInfo, GUILayout.Height(100));
+            GUILayout.Space(20);
+            
+            Repaint();
+        }
+    }
+}
