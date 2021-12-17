@@ -6,12 +6,12 @@ using UnityEngine;
 
 namespace LaurenceBuist
 {
-    public class LB_Logsystem : Bolt.GlobalEventListener
+    public class LB_Logsystem : Photon.Bolt.GlobalEventListener
     {
         public TMP_FontAsset font;
         public Transform verticalLayout;
 
-        public override void OnEvent(PlayerJoinedEvent evnt)
+        /*public override void OnEvent(PlayerJoinedEvent evnt)
         {
             Debug.Log("Count: " + verticalLayout.childCount);
             if (verticalLayout.childCount < 5)
@@ -23,7 +23,7 @@ namespace LaurenceBuist
                 Destroy(verticalLayout.GetChild(0).GetComponent<GameObject>());
                 createMessage(evnt.Message);
             }
-        }
+        }*/
         
         public void createMessage(string text)
         {

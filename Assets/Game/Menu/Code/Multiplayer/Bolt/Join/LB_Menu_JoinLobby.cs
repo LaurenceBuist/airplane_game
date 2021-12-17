@@ -1,4 +1,4 @@
-﻿using Bolt.Matchmaking;
+﻿using Photon.Bolt.Matchmaking;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;

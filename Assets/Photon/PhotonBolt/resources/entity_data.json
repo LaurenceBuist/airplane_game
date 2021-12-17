@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Indiepixel_Airplane",
+    "entityComponents": [
+      {
+        "prefabId": {
+          "Value": 3
+        },
+        "serializerId": {
+          "id": "9d5e86c4-4ad6-4162-be36-d89c225cbcc6"
+        },
+        "updateRate": 1,
+        "clientPredicted": true,
+        "allowInstantiateOnClient": true,
+        "sceneObjectDestroyOnDetach": true,
+        "sceneObjectAutoAttach": true
+      }
+    ],
+    "entityHitboxes": [],
+    "childItems": []
+  },
+  {
+    "name": "Canvas",
+    "entityComponents": [
+      {
+        "prefabId": {
+          "Value": 4
+        },
+        "serializerId": {
+          "id": "417ce91b-58fb-4999-8ff8-0b1f3513bd68"
+        },
+        "updateRate": 1,
+        "clientPredicted": true,
+        "allowInstantiateOnClient": true,
+        "sceneObjectDestroyOnDetach": true,
+        "sceneObjectAutoAttach": true
+      }
+    ],
+    "entityHitboxes": [],
+    "childItems": []
+  }
+]

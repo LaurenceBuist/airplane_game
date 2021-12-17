@@ -1,10 +1,11 @@
 ﻿using UnityEngine;
+using Photon.Bolt;
 
 namespace LaurenceBuist
 {
     [RequireComponent(typeof(Rigidbody))]
     [RequireComponent(typeof(AudioSource))]
-    public class LB_BaseRigidBody_Controller : Bolt.EntityBehaviour<IPlaneState>
+    public class LB_BaseRigidBody_Controller : EntityBehaviour<IPlaneState>
     {
         #region Variables
         [Header("Offline")]

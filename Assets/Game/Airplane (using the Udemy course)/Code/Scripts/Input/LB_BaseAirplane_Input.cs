@@ -1,9 +1,10 @@
 ﻿using UnityEngine;
 using Slider = UnityEngine.UI.Slider;
+using Photon.Bolt;
 
 namespace LaurenceBuist
 {
-    public class LB_BaseAirplane_Input : Bolt.EntityBehaviour<IPlaneState>
+    public class LB_BaseAirplane_Input : EntityBehaviour<IPlaneState>
     {
         #region Variables
         protected float pitch = 0f;    //Pitch up and down

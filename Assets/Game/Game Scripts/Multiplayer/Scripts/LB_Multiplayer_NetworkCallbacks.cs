@@ -2,10 +2,10 @@
 using LaurenceBuist;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-
+using Photon.Bolt;
 
 [BoltGlobalBehaviour]
-public class LB_Multiplayer_NetworkCallbacks : Bolt.GlobalEventListener
+public class LB_Multiplayer_NetworkCallbacks : GlobalEventListener
 {
     // As soon as the scene has loaded
     public override void SceneLoadLocalDone(string map)
@@ -28,7 +28,7 @@ public class LB_Multiplayer_NetworkCallbacks : Bolt.GlobalEventListener
         }
 
         // Instantiate plane
-        BoltEntity player = BoltNetwork.Instantiate(BoltPrefabs.BomberPlayer, spawnPosition, spawnRotation);        //NOTE: It should say 'BoltPrefabs.Indiepixel_Airplane' instead of 'BoltPrefabs.BomberPlayer' but it is mixed up somehow
+        BoltEntity player = BoltNetwork.Instantiate(BoltPrefabs.Indi, spawnPosition, spawnRotation);        //NOTE: It should say 'BoltPrefabs.Indiepixel_Airplane' instead of 'BoltPrefabs.BomberPlayer' but it is mixed up somehow
         
         // Instantiate LogSystem
         //BoltNetwork.Instantiate(BoltPrefabs.Canvas, Vector3.zero, Quaternion.Euler(0,0,0));

@@ -1,16 +1,15 @@
 ﻿
 using System;
 using System.Collections;
-using Bolt;
-using Bolt.Matchmaking;
-using Bolt.Photon;
+using Photon.Bolt;
+using Photon.Bolt.Matchmaking;
 using UdpKit;
 using UdpKit.Platform;
 using UnityEngine;
 
 namespace LaurenceBuist
 {
-    public class LB_Menu_Multiplayer : Bolt.GlobalEventListener
+    public class LB_Menu_Multiplayer : GlobalEventListener
     {
         public String[] Worlds;
 
@@ -43,7 +42,7 @@ namespace LaurenceBuist
 
                 if (photonSession.Source == UdpSessionSource.Photon)
                 {
-                    BoltNetwork.Connect(photonSession);
+                    //BoltNetwork.Connect(photonSession);
                 }
             }
         }

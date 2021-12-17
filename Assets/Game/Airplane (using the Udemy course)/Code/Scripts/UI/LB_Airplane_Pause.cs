@@ -1,11 +1,12 @@
-﻿using Bolt;
+﻿using Photon.Bolt;
+using Photon.Bolt.Matchmaking;
 using UnityEngine;
 
-public class LB_Airplane_Pause : Bolt.EntityBehaviour<IPlaneState>
+public class LB_Airplane_Pause : MonoBehaviour//EntityBehaviour<IPlaneState>
 {
     public void LeaveRoom()
     {
-        if (!BoltNetwork.IsServer)
+        /*if (!BoltNetwork.IsServer)
         {
             var evnt = PlayerJoinedEvent.Create();
             evnt.Message = PlayerPrefs.GetString("Player") + "left the game";
@@ -14,6 +15,6 @@ public class LB_Airplane_Pause : Bolt.EntityBehaviour<IPlaneState>
         if(BoltNetwork.IsServer) 
             BoltLauncher.Shutdown();
         else 
-            BoltNetwork.Server.Disconnect();
+            BoltNetwork.Server.Disconnect();*/
     }
 }

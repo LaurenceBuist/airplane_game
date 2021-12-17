@@ -2,7 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
-using Bolt.Utils;
+using Photon.Bolt.Utils;
 using UnityEngine;
 
 namespace LaurenceBuist

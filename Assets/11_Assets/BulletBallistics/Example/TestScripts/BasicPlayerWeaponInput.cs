@@ -1,11 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
-using Bolt;
+using Photon.Bolt;
 using UnityEngine;
 
 namespace Ballistics
 {
-    public class BasicPlayerWeaponInput : Bolt.EntityBehaviour<IPlaneState>
+    public class BasicPlayerWeaponInput : EntityBehaviour<IPlaneState>
     {
 
         public float WeaponSpreadWalking;

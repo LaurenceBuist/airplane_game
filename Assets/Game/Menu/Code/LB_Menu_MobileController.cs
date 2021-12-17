@@ -1,8 +1,5 @@
 ﻿using System;
-using Photon.Pun;
-using TMPro;
 using UnityEngine;
-using UnityEngine.PlayerLoop;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 

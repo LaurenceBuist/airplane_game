@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using Photon.Bolt;
 
 namespace LaurenceBuist
 {

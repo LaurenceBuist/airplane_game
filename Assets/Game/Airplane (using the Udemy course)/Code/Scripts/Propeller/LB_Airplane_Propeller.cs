@@ -1,8 +1,9 @@
 ﻿using UnityEngine;
+using Photon.Bolt;
 
 namespace LaurenceBuist
 {
-    public class LB_Airplane_Propeller : Bolt.EntityBehaviour<IPlaneState>
+    public class LB_Airplane_Propeller : EntityBehaviour<IPlaneState>
     {
         #region Variables
         [Header("Propeller Properties")]

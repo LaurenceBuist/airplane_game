@@ -1,22 +1,716 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4d1b057c-82fd-40d9-b6a3-0da2a0ec6786" name="Default" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
+    <list default="true" id="4d1b057c-82fd-40d9-b6a3-0da2a0ec6786" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/BulletBallistics/Example/TestScripts/BasicPlayerWeaponInput.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/11_Assets/BulletBallistics/Example/TestScripts/BasicPlayerWeaponInput.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Gizmos.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Gizmos/BoltEntity Gizmo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Gizmos/BoltEntity Gizmo.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Gizmos/BoltEntity Icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Gizmos/BoltEntity Icon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/PhotonBolt.asmdef" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/PhotonBolt.asmdef.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/README.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/assemblies.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/assemblies/bolt.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/assemblies/bolt.dll.debug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/assemblies/bolt.dll.debug.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/assemblies/bolt.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/assemblies/bolt.user.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/assemblies/bolt.user.dll.backup" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/assemblies/bolt.user.dll.backup.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/assemblies/bolt.user.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/assemblies/bolt.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/assemblies/bolt.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/assemblies/editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/assemblies/editor/bolt.compiler.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/assemblies/editor/bolt.compiler.dll.debug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/assemblies/editor/bolt.compiler.dll.debug.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/assemblies/editor/bolt.compiler.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/assemblies/editor/bolt.compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/assemblies/editor/bolt.compiler.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/assemblies/editor/bolt.editor.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/assemblies/editor/bolt.editor.dll.debug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/assemblies/editor/bolt.editor.dll.debug.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/assemblies/editor/bolt.editor.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/assemblies/editor/bolt.editor.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/assemblies/editor/bolt.editor.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/assemblies/editor/protobuf-net.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/assemblies/editor/protobuf-net.LICENSE.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/assemblies/editor/protobuf-net.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/assemblies/editor/protobuf-net.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/assemblies/udpkit.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/assemblies/udpkit/udpkit.common.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/assemblies/udpkit/udpkit.common.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/assemblies/udpkit/udpkit.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/assemblies/udpkit/udpkit.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/assemblies/udpkit/udpkit.platform.dotnet.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/assemblies/udpkit/udpkit.platform.dotnet.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/assemblies/udpkit/udpkit.platform.null.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/assemblies/udpkit/udpkit.platform.null.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/assemblies/udpkit/udpkit.platform.photon.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/assemblies/udpkit/udpkit.platform.photon.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/bolt_sdk.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/bolt_sdk.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/editor/resources.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/editor/resources/BoltLogo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/editor/resources/BoltLogo.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/editor/resources/PhotonCloudIcon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/editor/resources/PhotonCloudIcon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/editor/resources/backgrounds.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/editor/resources/backgrounds/ATTRIBUTION.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/editor/resources/backgrounds/ATTRIBUTION.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/editor/resources/backgrounds/dark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/editor/resources/backgrounds/dark.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/editor/resources/backgrounds/dark_hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/editor/resources/backgrounds/dark_hover.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/editor/resources/backgrounds/light.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/editor/resources/backgrounds/light.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/editor/resources/backgrounds/light_hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/editor/resources/backgrounds/light_hover.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/editor/resources/icons.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/editor/resources/icons/ATTRIBUTION.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/editor/resources/icons/ATTRIBUTION.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/editor/resources/icons/mc_arrow_down.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/editor/resources/icons/mc_arrow_down.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/editor/resources/icons/mc_arrow_right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/editor/resources/icons/mc_arrow_right.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/editor/resources/icons/mc_arrow_up.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/editor/resources/icons/mc_arrow_up.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/editor/resources/icons/mc_bubble.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/editor/resources/icons/mc_bubble.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/editor/resources/icons/mc_command.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/editor/resources/icons/mc_command.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/editor/resources/icons/mc_compile.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/editor/resources/icons/mc_compile.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/editor/resources/icons/mc_compile_assembly.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/editor/resources/icons/mc_compile_assembly.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/editor/resources/icons/mc_connection.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/editor/resources/icons/mc_connection.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/editor/resources/icons/mc_controller.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/editor/resources/icons/mc_controller.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/editor/resources/icons/mc_controller_only.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/editor/resources/icons/mc_controller_only.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/editor/resources/icons/mc_controller_plus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/editor/resources/icons/mc_controller_plus.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/editor/resources/icons/mc_debugplay.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/editor/resources/icons/mc_debugplay.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/editor/resources/icons/mc_devicetype.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/editor/resources/icons/mc_devicetype.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/editor/resources/icons/mc_download.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/editor/resources/icons/mc_download.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/editor/resources/icons/mc_event.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/editor/resources/icons/mc_event.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/editor/resources/icons/mc_group.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/editor/resources/icons/mc_group.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/editor/resources/icons/mc_input.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/editor/resources/icons/mc_input.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/editor/resources/icons/mc_ipaddress.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/editor/resources/icons/mc_ipaddress.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/editor/resources/icons/mc_masterserver.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/editor/resources/icons/mc_masterserver.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/editor/resources/icons/mc_minus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/editor/resources/icons/mc_minus.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/editor/resources/icons/mc_minus_small.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/editor/resources/icons/mc_minus_small.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/editor/resources/icons/mc_name.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/editor/resources/icons/mc_name.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/editor/resources/icons/mc_nat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/editor/resources/icons/mc_nat.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/editor/resources/icons/mc_owner_only.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/editor/resources/icons/mc_owner_only.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/editor/resources/icons/mc_ping.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/editor/resources/icons/mc_ping.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/editor/resources/icons/mc_ping_sim.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/editor/resources/icons/mc_ping_sim.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/editor/resources/icons/mc_plus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/editor/resources/icons/mc_plus.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/editor/resources/icons/mc_position.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/editor/resources/icons/mc_position.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/editor/resources/icons/mc_refresh.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/editor/resources/icons/mc_refresh.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/editor/resources/icons/mc_replication.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/editor/resources/icons/mc_replication.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/editor/resources/icons/mc_rotation.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/editor/resources/icons/mc_rotation.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/editor/resources/icons/mc_save.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/editor/resources/icons/mc_save.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/editor/resources/icons/mc_scenes.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/editor/resources/icons/mc_scenes.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/editor/resources/icons/mc_server.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/editor/resources/icons/mc_server.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/editor/resources/icons/mc_settings.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/editor/resources/icons/mc_settings.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/editor/resources/icons/mc_state.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/editor/resources/icons/mc_state.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/editor/resources/icons/mc_state2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/editor/resources/icons/mc_state2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/editor/resources/icons/mc_struct.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/editor/resources/icons/mc_struct.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/editor/resources/icons/mc_upload.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/editor/resources/icons/mc_upload.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/editor/resources/icons_welcome.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/editor/resources/icons_welcome/ATTRIBUTION.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/editor/resources/icons_welcome/ATTRIBUTION.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/editor/resources/icons_welcome/bugtracker.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/editor/resources/icons_welcome/bugtracker.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/editor/resources/icons_welcome/bullet_black.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/editor/resources/icons_welcome/bullet_black.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/editor/resources/icons_welcome/bullet_down.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/editor/resources/icons_welcome/bullet_down.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/editor/resources/icons_welcome/bullet_green.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/editor/resources/icons_welcome/bullet_green.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/editor/resources/icons_welcome/comments.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/editor/resources/icons_welcome/comments.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/editor/resources/icons_welcome/community.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/editor/resources/icons_welcome/community.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/editor/resources/icons_welcome/documentation.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/editor/resources/icons_welcome/documentation.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/editor/resources/icons_welcome/information.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/editor/resources/icons_welcome/information.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/editor/resources/icons_welcome/install_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/editor/resources/icons_welcome/install_icon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/editor/resources/icons_welcome/samples.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/editor/resources/icons_welcome/samples.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/editor/scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/editor/scripts/AccountService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/editor/scripts/AccountService.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/editor/scripts/BoltExecutionOrderManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/editor/scripts/BoltExecutionOrderManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/editor/scripts/BoltUtils.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/editor/scripts/BoltUtils.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/editor/scripts/BoltWizardWindow.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/editor/scripts/BoltWizardWindow.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/editor/scripts/BoltWizardWindowUtils.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/editor/scripts/BoltWizardWindowUtils.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/editor/scripts/PhotonBolt-Editor.asmdef" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/editor/scripts/PhotonBolt-Editor.asmdef.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/license.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/license.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/link.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/link.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/packages.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/packages/bolt_packages.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/packages/bolt_packages.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/packages/bolt_samples.unitypackage.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/project.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/project.json.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/release_history.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/release_history.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/resources.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/resources/BoltIcon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/resources/BoltIcon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/resources/BoltPrefabDatabase.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/resources/BoltPrefabDatabase.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/resources/BoltRuntimeSettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/resources/BoltRuntimeSettings.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/scenes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/scenes/BoltDebugScene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/scenes/BoltDebugScene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/scripts/BoltConsoleWriter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/scripts/BoltConsoleWriter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/scripts/BoltDebugStart.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/scripts/BoltDebugStart.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/scripts/BoltDebugStartSettings.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/scripts/BoltDebugStartSettings.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/scripts/BoltDynamicData.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/scripts/BoltDynamicData.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/scripts/BoltExecutionOrderAttribute.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/scripts/BoltExecutionOrderAttribute.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/scripts/BoltNetworkUtils.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/scripts/BoltNetworkUtils.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/scripts/BoltUnityDebugDrawer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonBolt/scripts/BoltUnityDebugDrawer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonChat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonChat/Code.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonChat/Code/ChannelCreationOptions.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonChat/Code/ChannelCreationOptions.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonChat/Code/ChannelWellKnownProperties.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonChat/Code/ChannelWellKnownProperties.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonChat/Code/ChatChannel.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonChat/Code/ChatChannel.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonChat/Code/ChatClient.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonChat/Code/ChatClient.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonChat/Code/ChatDisconnectCause.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonChat/Code/ChatDisconnectCause.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonChat/Code/ChatEventCode.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonChat/Code/ChatEventCode.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonChat/Code/ChatOperationCode.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonChat/Code/ChatOperationCode.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonChat/Code/ChatParameterCode.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonChat/Code/ChatParameterCode.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonChat/Code/ChatPeer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonChat/Code/ChatPeer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonChat/Code/ChatState.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonChat/Code/ChatState.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonChat/Code/ChatUserStatus.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonChat/Code/ChatUserStatus.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonChat/Code/IChatClientListener.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonChat/Code/IChatClientListener.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonChat/Code/PhotonChat.asmdef" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonChat/Code/PhotonChat.asmdef.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonChat/Demos.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonChat/Demos/Common.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonChat/Demos/Common/EventSystemSpawner.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonChat/Demos/Common/EventSystemSpawner.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonChat/Demos/Common/OnStartDelete.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonChat/Demos/Common/OnStartDelete.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonChat/Demos/Common/TextButtonTransition.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonChat/Demos/Common/TextButtonTransition.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonChat/Demos/Common/TextToggleIsOnTransition.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonChat/Demos/Common/TextToggleIsOnTransition.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonChat/Demos/DemoChat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonChat/Demos/DemoChat/ChannelSelector.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonChat/Demos/DemoChat/ChannelSelector.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonChat/Demos/DemoChat/ChatAppIdCheckerUI.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonChat/Demos/DemoChat/ChatAppIdCheckerUI.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonChat/Demos/DemoChat/ChatGui.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonChat/Demos/DemoChat/ChatGui.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonChat/Demos/DemoChat/DemoChat-Scene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonChat/Demos/DemoChat/DemoChat-Scene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonChat/Demos/DemoChat/FriendItem.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonChat/Demos/DemoChat/FriendItem.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonChat/Demos/DemoChat/IgnoreUiRaycastWhenInactive.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonChat/Demos/DemoChat/IgnoreUiRaycastWhenInactive.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonChat/Demos/DemoChat/NamePickGui.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonChat/Demos/DemoChat/NamePickGui.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonLibs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonLibs/DgramEncryptWin64.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonLibs/DgramEncryptWin64/PhotonEncryptorPlugin.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonLibs/DgramEncryptWin64/PhotonEncryptorPlugin.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonLibs/Metro.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonLibs/Metro/Photon3Unity3D.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonLibs/Metro/Photon3Unity3D.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonLibs/Metro/Photon3Unity3D.pri" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonLibs/Metro/Photon3Unity3D.pri.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonLibs/Photon3Unity3D.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonLibs/Photon3Unity3D.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonLibs/Photon3Unity3D.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonLibs/Photon3Unity3D.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonLibs/WebSocket.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonLibs/WebSocket/PhotonWebSocket.asmdef" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonLibs/WebSocket/PhotonWebSocket.asmdef.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonLibs/WebSocket/SocketWebTcp.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonLibs/WebSocket/SocketWebTcp.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonLibs/WebSocket/WebSocket.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonLibs/WebSocket/WebSocket.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonLibs/WebSocket/WebSocket.jslib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonLibs/WebSocket/WebSocket.jslib.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonLibs/WebSocket/websocket-sharp.README" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonLibs/WebSocket/websocket-sharp.README.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonLibs/WebSocket/websocket-sharp.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonLibs/WebSocket/websocket-sharp.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonLibs/changes-library.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonLibs/changes-library.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonNetworking-Documentation.chm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonNetworking-Documentation.chm.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonNetworking-Documentation.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonNetworking-Documentation.pdf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonRealtime.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonRealtime/Code.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonRealtime/Code/AppSettings.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonRealtime/Code/AppSettings.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonRealtime/Code/ConnectionHandler.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonRealtime/Code/ConnectionHandler.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonRealtime/Code/Extensions.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonRealtime/Code/Extensions.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonRealtime/Code/FriendInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonRealtime/Code/FriendInfo.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonRealtime/Code/LoadBalancingClient.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonRealtime/Code/LoadBalancingClient.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonRealtime/Code/LoadbalancingPeer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonRealtime/Code/LoadbalancingPeer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonRealtime/Code/PhotonPing.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonRealtime/Code/PhotonPing.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonRealtime/Code/PhotonPingClasses.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonRealtime/Code/PhotonPingClasses.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonRealtime/Code/PhotonRealtime.asmdef" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonRealtime/Code/PhotonRealtime.asmdef.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonRealtime/Code/Player.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonRealtime/Code/Player.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonRealtime/Code/Region.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonRealtime/Code/Region.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonRealtime/Code/RegionHandler.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonRealtime/Code/RegionHandler.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonRealtime/Code/Room.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonRealtime/Code/Room.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonRealtime/Code/RoomInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonRealtime/Code/RoomInfo.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonRealtime/Code/SupportLogger.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonRealtime/Code/SupportLogger.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonRealtime/Code/WebRpc.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonRealtime/Code/WebRpc.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonRealtime/Code/changes-realtime.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonRealtime/Code/changes-realtime.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonRealtime/Demos.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonRealtime/Demos/DemoLoadBalancing.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonRealtime/Demos/DemoLoadBalancing/ConnectAndJoinRandomLb.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonRealtime/Demos/DemoLoadBalancing/ConnectAndJoinRandomLb.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonRealtime/Demos/DemoLoadBalancing/DemoLoadBalancing-Scene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonRealtime/Demos/DemoLoadBalancing/DemoLoadBalancing-Scene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonRealtime/Demos/DemoLoadBalancing/Jura-Medium-LB.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonRealtime/Demos/DemoLoadBalancing/Jura-Medium-LB.ttf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonScripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonScripts/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonScripts/Scripts/AsteroidsGame.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonScripts/Scripts/AsteroidsGame.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonScripts/Scripts/Game.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonScripts/Scripts/Game/Asteroid.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonScripts/Scripts/Game/Asteroid.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonScripts/Scripts/Game/AsteroidsGameManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonScripts/Scripts/Game/AsteroidsGameManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonScripts/Scripts/Game/Bullet.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonScripts/Scripts/Game/Bullet.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonScripts/Scripts/Game/PlayerOverviewPanel.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonScripts/Scripts/Game/PlayerOverviewPanel.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonScripts/Scripts/Game/Spaceship.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonScripts/Scripts/Game/Spaceship.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonScripts/Scripts/Lobby.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonScripts/Scripts/Lobby/LobbyMainPanel.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonScripts/Scripts/Lobby/LobbyMainPanel.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonScripts/Scripts/Lobby/LobbyTopPanel.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonScripts/Scripts/Lobby/LobbyTopPanel.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonScripts/Scripts/Lobby/PlayerListEntry.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonScripts/Scripts/Lobby/PlayerListEntry.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonScripts/Scripts/Lobby/RoomListEntry.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonScripts/Scripts/Lobby/RoomListEntry.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/Code.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/Code/CustomTypes.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/Code/CustomTypes.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/Code/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/Code/Editor/AccountService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/Code/Editor/AccountService.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/Code/Editor/CopyIcon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/Code/Editor/CopyIcon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/Code/Editor/CopyIconPro.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/Code/Editor/CopyIconPro.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/Code/Editor/PhotonEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/Code/Editor/PhotonEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/Code/Editor/PhotonEditorUtils.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/Code/Editor/PhotonEditorUtils.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/Code/Editor/PhotonGUI.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/Code/Editor/PhotonGUI.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/Code/Editor/PhotonUnityNetworking.Editor.asmdef" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/Code/Editor/PhotonUnityNetworking.Editor.asmdef.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/Code/Editor/PhotonViewHandler.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/Code/Editor/PhotonViewHandler.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/Code/Editor/PhotonViewInspector.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/Code/Editor/PhotonViewInspector.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/Code/Editor/PunGradient.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/Code/Editor/PunGradient.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/Code/Editor/PunSceneSettings.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/Code/Editor/PunSceneSettings.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/Code/Editor/PunSceneSettingsFile.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/Code/Editor/PunSceneSettingsFile.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/Code/Editor/PunSceneSettingsInspector.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/Code/Editor/PunSceneSettingsInspector.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/Code/Editor/ReordableList.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/Code/Editor/ReordableList/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/Code/Editor/ReordableList/LICENSE.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/Code/Editor/ReordableList/ReorderableListResources.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/Code/Editor/ReordableList/ReorderableListResources.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/Code/Editor/ServerSettingsInspector.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/Code/Editor/ServerSettingsInspector.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/Code/Editor/Views.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/Code/Editor/Views/PhotonAnimatorViewEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/Code/Editor/Views/PhotonAnimatorViewEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/Code/Editor/Views/PhotonRigidbody2DViewEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/Code/Editor/Views/PhotonRigidbody2DViewEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/Code/Editor/Views/PhotonRigidbodyViewEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/Code/Editor/Views/PhotonRigidbodyViewEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/Code/Editor/Views/PhotonTransformViewClassicEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/Code/Editor/Views/PhotonTransformViewClassicEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/Code/Editor/Views/PhotonTransformViewEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/Code/Editor/Views/PhotonTransformViewEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/Code/Editor/help.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/Code/Editor/help.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/Code/Enums.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/Code/Enums.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/Code/PhotonHandler.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/Code/PhotonHandler.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/Code/PhotonNetwork.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/Code/PhotonNetwork.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/Code/PhotonNetworkPart.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/Code/PhotonNetworkPart.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/Code/PhotonStreamQueue.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/Code/PhotonStreamQueue.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/Code/PhotonUnityNetworking.asmdef" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/Code/PhotonUnityNetworking.asmdef.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/Code/PhotonView.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/Code/PhotonView.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/Code/PunClasses.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/Code/PunClasses.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/Code/ServerSettings.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/Code/ServerSettings.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/Code/Views.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/Code/Views/PhotonAnimatorView.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/Code/Views/PhotonAnimatorView.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/Code/Views/PhotonRigidbody2DView.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/Code/Views/PhotonRigidbody2DView.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/Code/Views/PhotonRigidbodyView.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/Code/Views/PhotonRigidbodyView.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/Code/Views/PhotonTransformView.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/Code/Views/PhotonTransformView.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/Code/Views/PhotonTransformViewClassic.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/Code/Views/PhotonTransformViewClassic.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/Icons.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/Icons/PunIcon-128.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/Icons/PunIcon-128.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/Icons/PunIconApp128.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/Icons/PunIconApp128.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/Icons/PunIconApp32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/Icons/PunIconApp32.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/Icons/PunIconApp48.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/Icons/PunIconApp48.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/Icons/PunIconApp512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/Icons/PunIconApp512.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/Resources.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/Resources/PhotonServerSettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/Resources/PhotonServerSettings.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/UtilityScripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/UtilityScripts/Culling.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/UtilityScripts/Culling/CullArea.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/UtilityScripts/Culling/CullArea.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/UtilityScripts/Culling/CullingHandler.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/UtilityScripts/Culling/CullingHandler.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/UtilityScripts/Culling/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/UtilityScripts/Culling/Editor/CullAreaEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/UtilityScripts/Culling/Editor/CullAreaEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/UtilityScripts/Culling/Editor/PhotonUnityNetworking.Utilities.Culling.Editor.asmdef" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/UtilityScripts/Culling/Editor/PhotonUnityNetworking.Utilities.Culling.Editor.asmdef.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/UtilityScripts/Debugging.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/UtilityScripts/Debugging/PhotonLagSimulationGui.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/UtilityScripts/Debugging/PhotonLagSimulationGui.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/UtilityScripts/Debugging/PhotonStatsGui.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/UtilityScripts/Debugging/PhotonStatsGui.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/UtilityScripts/Debugging/PointedAtGameObjectInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/UtilityScripts/Debugging/PointedAtGameObjectInfo.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/UtilityScripts/Debugging/StatesGui.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/UtilityScripts/Debugging/StatesGui.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/Editor/PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.asmdef" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/Editor/PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.asmdef.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/Editor/PlayerNumberingInspector.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/Editor/PlayerNumberingInspector.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/Editor/PunTeamsInspector.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/Editor/PunTeamsInspector.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/PlayerNumbering.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/PlayerNumbering.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/PunPlayerScores.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/PunPlayerScores.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/PunTeams.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/PunTeams.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/UtilityScripts/PhotonUnityNetworking.Utilities.asmdef" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/UtilityScripts/PhotonUnityNetworking.Utilities.asmdef.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/UtilityScripts/PhotonView.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/UtilityScripts/PhotonView/SmoothSyncMovement.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/UtilityScripts/PhotonView/SmoothSyncMovement.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/UtilityScripts/Prototyping.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/UtilityScripts/Prototyping/ConnectAndJoinRandom.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/UtilityScripts/Prototyping/ConnectAndJoinRandom.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/UtilityScripts/Prototyping/MoveByKeys.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/UtilityScripts/Prototyping/MoveByKeys.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/UtilityScripts/Prototyping/OnClickDestroy.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/UtilityScripts/Prototyping/OnClickDestroy.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/UtilityScripts/Prototyping/OnClickInstantiate.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/UtilityScripts/Prototyping/OnClickInstantiate.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/UtilityScripts/Prototyping/OnClickRpc.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/UtilityScripts/Prototyping/OnClickRpc.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/UtilityScripts/Prototyping/OnEscapeQuit.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/UtilityScripts/Prototyping/OnEscapeQuit.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/UtilityScripts/Prototyping/OnJoinedInstantiate.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/UtilityScripts/Prototyping/OnJoinedInstantiate.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/UtilityScripts/Prototyping/OnStartDelete.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/UtilityScripts/Prototyping/OnStartDelete.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/UtilityScripts/Room.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/UtilityScripts/Room/CountdownTimer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/UtilityScripts/Room/CountdownTimer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/UtilityScripts/TurnBased.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/UtilityScripts/TurnBased/PunTurnManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/UtilityScripts/TurnBased/PunTurnManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/UtilityScripts/UI.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/UtilityScripts/UI/ButtonInsideScrollList.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/UtilityScripts/UI/ButtonInsideScrollList.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/UtilityScripts/UI/EventSystemSpawner.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/UtilityScripts/UI/EventSystemSpawner.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/UtilityScripts/UI/GraphicToggleIsOnTransition.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/UtilityScripts/UI/GraphicToggleIsOnTransition.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/UtilityScripts/UI/OnPointerOverTooltip.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/UtilityScripts/UI/OnPointerOverTooltip.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/UtilityScripts/UI/TabViewManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/UtilityScripts/UI/TabViewManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/UtilityScripts/UI/TextButtonTransition.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/UtilityScripts/UI/TextButtonTransition.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/UtilityScripts/UI/TextToggleIsOnTransition.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/UtilityScripts/UI/TextToggleIsOnTransition.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/changelog.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/changelog.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/link.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/link.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/PhotonUnityNetworking/readme.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/Prefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/Prefabs/PlayerListEntry.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/Prefabs/PlayerListEntry.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/Prefabs/RoomListEntry.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/Prefabs/RoomListEntry.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/samples.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/samples/LobbyManager.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/samples/LobbyManager/Fonts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/samples/LobbyManager/Fonts/OpenSans.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/samples/LobbyManager/Fonts/OpenSans/License!.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/samples/LobbyManager/Fonts/OpenSans/License!.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/samples/LobbyManager/Fonts/OpenSans/OpenSansBold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/samples/LobbyManager/Fonts/OpenSans/OpenSansBold.ttf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/samples/LobbyManager/Fonts/OpenSans/OpenSansLight.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/samples/LobbyManager/Fonts/OpenSans/OpenSansLight.ttf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/samples/LobbyManager/Fonts/OpenSans/OpenSansRegular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/samples/LobbyManager/Fonts/OpenSans/OpenSansRegular.ttf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/samples/LobbyManager/Fonts/OpenSans/OpenSansSemibold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/samples/LobbyManager/Fonts/OpenSans/OpenSansSemibold.ttf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/samples/LobbyManager/Prefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/samples/LobbyManager/Prefabs/BomberPlayer.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/samples/LobbyManager/Prefabs/BomberPlayer.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/samples/LobbyManager/Prefabs/GameGround.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/samples/LobbyManager/Prefabs/GameGround.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/samples/LobbyManager/Prefabs/LobbyManager.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/samples/LobbyManager/Prefabs/LobbyManager.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/samples/LobbyManager/Prefabs/NewIcons.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/samples/LobbyManager/Prefabs/NewIcons.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/samples/LobbyManager/Prefabs/PlayerInfo.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/samples/LobbyManager/Prefabs/PlayerInfo.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/samples/LobbyManager/Prefabs/ServerInfoEntry.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/samples/LobbyManager/Prefabs/ServerInfoEntry.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/samples/LobbyManager/Prefabs/ServerNameGroup.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/samples/LobbyManager/Prefabs/ServerNameGroup.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/samples/LobbyManager/Scenes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/samples/LobbyManager/Scenes/PhotonGame.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/samples/LobbyManager/Scenes/PhotonGame.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/samples/LobbyManager/Scenes/PhotonLobby.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/samples/LobbyManager/Scenes/PhotonLobby.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/samples/LobbyManager/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/samples/LobbyManager/Scripts/Controllers.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/samples/LobbyManager/Scripts/Controllers/BomberPlayerController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/samples/LobbyManager/Scripts/Controllers/BomberPlayerController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/samples/LobbyManager/Scripts/Controllers/PhotonGameSceneController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/samples/LobbyManager/Scripts/Controllers/PhotonGameSceneController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/samples/LobbyManager/Scripts/Lobby.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/samples/LobbyManager/Scripts/Lobby/Entity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/samples/LobbyManager/Scripts/Lobby/Entity/LobbyPlayer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/samples/LobbyManager/Scripts/Lobby/Entity/LobbyPlayer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/samples/LobbyManager/Scripts/Lobby/ILobbyUI.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/samples/LobbyManager/Scripts/Lobby/ILobbyUI.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/samples/LobbyManager/Scripts/Lobby/LobbyManager.UI.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/samples/LobbyManager/Scripts/Lobby/LobbyManager.UI.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/samples/LobbyManager/Scripts/Lobby/LobbyManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/samples/LobbyManager/Scripts/Lobby/LobbyManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/samples/LobbyManager/Scripts/Lobby/LobbyUICountdownPanel.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/samples/LobbyManager/Scripts/Lobby/LobbyUICountdownPanel.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/samples/LobbyManager/Scripts/Lobby/LobbyUIInfoPanel.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/samples/LobbyManager/Scripts/Lobby/LobbyUIInfoPanel.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/samples/LobbyManager/Scripts/Lobby/LobbyUIMainMenu.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/samples/LobbyManager/Scripts/Lobby/LobbyUIMainMenu.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/samples/LobbyManager/Scripts/Lobby/LobbyUIRoom.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/samples/LobbyManager/Scripts/Lobby/LobbyUIRoom.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/samples/LobbyManager/Scripts/Lobby/LobbyUIServerEntry.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/samples/LobbyManager/Scripts/Lobby/LobbyUIServerEntry.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/samples/LobbyManager/Scripts/Lobby/LobbyUIServerList.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/samples/LobbyManager/Scripts/Lobby/LobbyUIServerList.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/samples/LobbyManager/Scripts/Lobby/LobbyUITopPanel.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/samples/LobbyManager/Scripts/Lobby/LobbyUITopPanel.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/samples/LobbyManager/Scripts/Utils.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/samples/LobbyManager/Scripts/Utils/SceneField.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/samples/LobbyManager/Scripts/Utils/SceneField.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/samples/LobbyManager/Sprites.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/samples/LobbyManager/Sprites/AddSprite.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/samples/LobbyManager/Sprites/AddSprite.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/samples/LobbyManager/Sprites/BoltIconLobby.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/samples/LobbyManager/Sprites/BoltIconLobby.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/samples/LobbyManager/Sprites/ButtonSprite.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/samples/LobbyManager/Sprites/ButtonSprite.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/samples/LobbyManager/Sprites/InfoPanelSprite.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/samples/LobbyManager/Sprites/InfoPanelSprite.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/samples/LobbyManager/Sprites/InputFieldSprite.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/samples/LobbyManager/Sprites/InputFieldSprite.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/samples/LobbyManager/Sprites/LocalSprite.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/samples/LobbyManager/Sprites/LocalSprite.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/samples/LobbyManager/Sprites/RemoteSprite.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/samples/LobbyManager/Sprites/RemoteSprite.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/samples/LobbyManager/Sprites/RemoveSprite.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Photon/samples/LobbyManager/Sprites/RemoveSprite.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Plugins.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Plugins/JsonDotNet.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Plugins/JsonDotNet/Assemblies.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Plugins/JsonDotNet/Assemblies/AOT.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Plugins/JsonDotNet/Assemblies/AOT/Newtonsoft.Json.XML" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Plugins/JsonDotNet/Assemblies/AOT/Newtonsoft.Json.XML.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Plugins/JsonDotNet/Assemblies/AOT/Newtonsoft.Json.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Plugins/JsonDotNet/Assemblies/AOT/Newtonsoft.Json.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Plugins/JsonDotNet/Assemblies/Standalone.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Plugins/JsonDotNet/Assemblies/Standalone/Newtonsoft.Json.XML" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Plugins/JsonDotNet/Assemblies/Standalone/Newtonsoft.Json.XML.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Plugins/JsonDotNet/Assemblies/Standalone/Newtonsoft.Json.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Plugins/JsonDotNet/Assemblies/Standalone/Newtonsoft.Json.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Plugins/JsonDotNet/Assemblies/Windows.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Plugins/JsonDotNet/Assemblies/Windows/Newtonsoft.Json.XML" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Plugins/JsonDotNet/Assemblies/Windows/Newtonsoft.Json.XML.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Plugins/JsonDotNet/Assemblies/Windows/Newtonsoft.Json.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Plugins/JsonDotNet/Assemblies/Windows/Newtonsoft.Json.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Plugins/JsonDotNet/Documentation.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Plugins/JsonDotNet/Documentation/Json Net for Unity 2.0.1.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Plugins/JsonDotNet/Documentation/Json Net for Unity 2.0.1.pdf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Plugins/JsonDotNet/JsonDotNet201Source.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Plugins/JsonDotNet/JsonDotNet201Source.zip.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Plugins/JsonDotNet/link.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/11_Assets/Photon/Plugins/JsonDotNet/link.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Airplane (using the Udemy course)/Code/Scripts/Characteristics/LB_Airplane_Characteristics.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Airplane (using the Udemy course)/Code/Scripts/Characteristics/LB_Airplane_Characteristics.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Airplane (using the Udemy course)/Code/Scripts/Controller/LB_BaseRigidBody_Controller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Airplane (using the Udemy course)/Code/Scripts/Controller/LB_BaseRigidBody_Controller.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Airplane (using the Udemy course)/Code/Scripts/Input/LB_BaseAirplane_Input.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Airplane (using the Udemy course)/Code/Scripts/Input/LB_BaseAirplane_Input.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Airplane (using the Udemy course)/Code/Scripts/Propeller/LB_Airplane_Propeller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Airplane (using the Udemy course)/Code/Scripts/Propeller/LB_Airplane_Propeller.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Airplane (using the Udemy course)/Code/Scripts/UI/LB_Airplane_Pause.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Airplane (using the Udemy course)/Code/Scripts/UI/LB_Airplane_Pause.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Game Scripts/Camera/LB_Camera_AuthorativeMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Game Scripts/Camera/LB_Camera_AuthorativeMovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Game Scripts/LogSystem/Scripts/LB_AddToNetwork.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Game Scripts/LogSystem/Scripts/LB_AddToNetwork.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Game Scripts/LogSystem/Scripts/LB_Logsystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Game Scripts/LogSystem/Scripts/LB_Logsystem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Game Scripts/Multiplayer/Old/Scripts/Authorative-Movement/resources/GameUI.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Game Scripts/Multiplayer/Old/Scripts/Authorative-Movement/resources/GameUI.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Game Scripts/Multiplayer/Old/Scripts/Authorative-Movement/resources/GameUI.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Game Scripts/Multiplayer/Old/Scripts/Authorative-Movement/resources/GameUI.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Game Scripts/Multiplayer/Scripts/LB_Multiplayer_NetworkCallbacks.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Game Scripts/Multiplayer/Scripts/LB_Multiplayer_NetworkCallbacks.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Game Scripts/Multiplayer/Scripts/LB_Multiplayer_ServerCallbacks.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Game Scripts/Multiplayer/Scripts/LB_Multiplayer_ServerCallbacks.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Game Scripts/World/LB_OnTriggerSetActive.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Game Scripts/World/LB_OnTriggerSetActive.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Menu/Code/LB_Menu_MobileController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Menu/Code/LB_Menu_MobileController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Menu/Code/Multiplayer/Bolt/Create/LB_Menu_CreateLobby.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Menu/Code/Multiplayer/Bolt/Create/LB_Menu_CreateLobby.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Menu/Code/Multiplayer/Bolt/Join/LB_Menu_JoinLobby.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Menu/Code/Multiplayer/Bolt/Join/LB_Menu_JoinLobby.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Menu/Code/Multiplayer/Bolt/LB_Menu_Multiplayer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Menu/Code/Multiplayer/Bolt/LB_Menu_Multiplayer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Menu/Test.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Menu/Test/Menu.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Menu/Test/Menu.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Worlds/Test scene/Airplane/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Worlds/Test scene/Airplane/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileEditorManager">
-    <leaf />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
     <option name="width" value="980" />
     <option name="height" value="1090" />
   </component>
+  <component name="ProjectId" id="22N7a016BzntW6rkEunziOKUoCW" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -38,20 +732,16 @@
       <pane id="PackagesPane" />
     </panes>
   </component>
-  <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="Application" factoryName="Application">
@@ -96,6 +786,7 @@
       <listeners />
     </configuration>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -106,6 +797,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1583943523186</updated>
+      <workItem from="1639666256945" duration="30000" />
+      <workItem from="1639671546666" duration="40000" />
     </task>
     <servers />
   </component>
@@ -138,9 +831,6 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
     </layout>
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Assets/0_Game/Menu/Code/LB_Menu_MobileController.cs" />
